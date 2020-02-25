@@ -1,0 +1,31 @@
+Android Coding Assignment
+ Simple Flickr App  Flickr is an image hosting service with a publicly available API.
+Write an Android app that provides a user with basic Flickr functionality.  Requirements 
+	•	Simple search page to query for images. For example, search by tag.
+	•	Results are displayed in a vertical list view which shows a list of images and some meta-data
+	(your choice as to what meta-data to display).
+	•	Clicking on an image in the list view opens a details view.
+For UX inspiration check out https://www.youtube.com/watch?v=T9LzFG8OIhU  Assessment Rubric 
+Prioritized in this order: 
+	•	Make a demo-able app. You should be able to show off a simple Android app to the team and
+	walk us through the above requirements.
+
+	•	Code readability and organization. We will read through your code as though you're opening
+	a pull request into our production codebase. No need for complex class hierarchies unless it benefits the problem.
+
+	•	Presentation. Guide us through your app architecture and features. Help us understand
+	engineering trade-offs you made and how you might have designed features given more time.
+	Talk us through your app lifecycle and any other highlights in your code.
+Note: please refrain from copying over complete projects/classes from previous assignments you’ve worked on.
+We want to see what you can accomplish without a complex starter project as your base.
+
+Using libraries is fine, but be prepared to explain how you might accomplish the same task without using a library.  
+Time You will have about 2.5 hours to complete this assignment before you will present to the team.  
+Keys  ridecell-flicker-test-app Key: 6bf318919bbbc455f3573d18798a58e3  Secret (usually not needed,
+but just in case): 177e9b4d7f3766dc   API Documentation https://www.flickr.com/services/api/ Hint:
+You can request JSON as the response format  Extra Credit If there is extra time consider the following: 
+
+	•	Add a button on top of list view which toggles between the vertical list view and a split
+	view (e.g., a horizontal list view and details pane)
+	•	Show off a creative feature of your choosing!
+
