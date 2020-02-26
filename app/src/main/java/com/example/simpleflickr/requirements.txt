@@ -1,3 +1,17 @@
+Research
+1. What is Reactive Programming?
+
+
+2. What are cold observables?
+
+
+3. What are hot observables?
+
+
+4. What is back pressure when talking about RxJava?
+
+
+
 Android Coding Assignment
  Simple Flickr App  Flickr is an image hosting service with a publicly available API.
 Write an Android app that provides a user with basic Flickr functionality.  Requirements 
@@ -29,3 +43,4 @@ You can request JSON as the response format  Extra Credit If there is extr
 	view (e.g., a horizontal list view and details pane)
 	•	Show off a creative feature of your choosing!
 
+ https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=6bf318919bbbc455f3573d18798a58e3&tags=apples&media=photos&format=json&nojsoncallback=1

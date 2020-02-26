@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.example.simpleflickr.datasource.remote.retrofit.RetrofitHelper
+import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 
@@ -24,10 +25,20 @@ class MainActivity : AppCompatActivity() {
 
     fun executeAsyncRetrofitCall() {
         val retrofitHelper = RetrofitHelper()
-        //retrofitHelper.getFlickrCallService(cacheDir)         // not using caches
     }
 
- //   @Subscribe(threadMode = ThreadMode.MAIN){}
+    override fun onStart() {
+        super.onStart()
+        EventBus.getDefault().register(this)
+    }
+
+    override fun onStop() {
+        super.onStop()
+        EventBus.getDefault().unregister(this)
+    }
+
+
+   // @Subscribe(threadMode = ThreadMode.MAIN)
 //    fun onTagResponse(tagResponse: TagResponse) {
 //
 //    }
